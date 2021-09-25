@@ -55,6 +55,7 @@ git push --tags
 ## Beta version (not default version, kinda experimental version)
 ```console
 git tag 1.2.0-beta.0
+npm version 1.2.0-beta.0 (update version in package.json)
 git push
 git push --tags
 npm publish --tag beta
