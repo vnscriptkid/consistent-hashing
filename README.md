@@ -103,3 +103,24 @@ npm install -D @babel/cli @babel/core @babel/preset-env babel-loader
   ],
 ```
 - Add empty `.npmignore` indicating that not to ignore `dist/` while publishing
+
+## Build umd for browser
+- Install webpack
+```console
+  "devDependencies": {
+    "@babel/register": "7.15.3",
+    "json-loader": "0.5.7",
+    "webpack": "5.54.0",
+    "webpack-cli": "4.8.0"
+    "npm-run-all": "4.1.5",
+  }
+```
+- Add new build scripts in `package.json`
+```json
+"scripts": {
+    "build:main": "babel --copy-files --no-copy-ignored --out-dir dist --ignore \"src/**/*.test.js\" src",
+    "build:umd": "webpack --output-filename index.umd.js --mode none",
+    "build:umd.min": "webpack --output-filename index.umd.min.js --mode production",
+    "build": "npm-run-all --parallel build:*"
+  },
+```
