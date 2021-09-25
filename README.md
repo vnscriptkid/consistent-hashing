@@ -102,3 +102,4 @@ npm install -D @babel/cli @babel/core @babel/preset-env babel-loader
     "README.md"
   ],
 ```
+- Add empty `.npmignore` indicating that not to ignore `dist/` while publishing
