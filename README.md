@@ -42,8 +42,9 @@ npm publish
 - One tag corresponds to a release
 - Attach a tag to latest commit, then release it
 ```console
-git tag 1.0.0
-git push --tags
+git tag 1.0.0 (npm version major/minor/patch)
+git push (git push --follow-tags)
+git push --tags 
 ```
 - Version `1.2.0`
   - `1` is major version, changed when there's breaking changes in lib's api
