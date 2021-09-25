@@ -4,5 +4,6 @@
     { "name": "Linh", "age": 26, "job": "Housewife" },
     { "name": "Phuong", "age": 26, "job": "Officer" },
     { "name": "Nghi", "age": 26, "job": "Retiree" },
-    { "name": "Thang", "age": 27, "job": "Trainer" }
+    { "name": "Thang", "age": 27, "job": "Trainer" },
+    { "name": "Tuan Anh", "age": 26, "job": "Tech Lead" }
 ]

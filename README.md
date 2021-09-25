@@ -51,3 +51,12 @@ git push --tags
   - `1` is major version, changed when there's breaking changes in lib's api
   - `2` is minor version, changed when there's new feature but does not change old api
   - `0` is patch version, changed when there's new bug fix
+
+## Beta version (not default version, kinda experimental version)
+```console
+git tag 1.2.0-beta.0
+git push
+git push --tags
+npm publish --tag beta
+npm install @vnscriptkid/example-lib@beta
+```
