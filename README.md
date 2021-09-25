@@ -32,3 +32,8 @@ npm install unique-random-array
     }
 }
 ```
+
+## Publish it
+```console
+npm publish
+```
