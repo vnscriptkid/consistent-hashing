@@ -61,3 +61,25 @@ git push --tags
 npm publish --tag beta
 npm install @vnscriptkid/example-lib@beta
 ```
+
+## Use `husky` to add checking before any commit with `pre-commit`
+https://www.npmjs.com/package/husky
+
+## Add code coverage
+- Add scripts in `package.json`
+```json
+"scripts": {
+  "test": "jest --coverage",
+},
+```
+- Add jest's thresholds in `jest.config.js`:
+```js
+coverageThreshold: {
+  global: {
+    statements: 100,
+    branches: 100,
+    functions: 100,
+    lines: 100,
+  },
+}
+```
