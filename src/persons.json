@@ -1,0 +1,7 @@
+[
+    { "name": "Thanh", "age": 26, "job": "Coder" },
+    { "name": "Bich", "age": 29, "job": "Laywer" },
+    { "name": "Linh", "age": 26, "job": "Housewife" },
+    { "name": "Phuong", "age": 26, "job": "Officer" },
+    { "name": "Nghi", "age": 26, "job": "Retiree" }
+]
