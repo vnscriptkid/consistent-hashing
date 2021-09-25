@@ -37,3 +37,11 @@ npm install unique-random-array
 ```console
 npm publish
 ```
+
+## Release new version
+- One tag corresponds to a release
+- Attach a tag to latest commit, then release it
+```console
+git tag 1.0.0
+git push --tags
+```
