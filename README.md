@@ -83,3 +83,22 @@ coverageThreshold: {
   },
 }
 ```
+
+## Use babel to transpile code that everyone understands
+- Install deps
+```console
+npm install -D @babel/cli @babel/core @babel/preset-env babel-loader
+```
+- Config babel in `.babelrc`
+- Add build script, update lib's entrance, update files to include to lib
+```json
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "babel --copy-files --no-copy-ignored --out-dir dist --ignore \"src/**/*.test.js\" src",
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+```

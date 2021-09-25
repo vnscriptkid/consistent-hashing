@@ -1,5 +1,5 @@
-const persons = require("./persons.json");
-const uniqueRandomArray = require("unique-random-array");
+import persons from "./persons.json";
+import uniqueRandomArray from "unique-random-array";
 
 module.exports = {
   all: persons,
