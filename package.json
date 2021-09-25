@@ -1,5 +1,5 @@
 {
-  "name": "example-lib",
+  "name": "@vnscriptkid/example-lib",
   "version": "1.0.0",
   "description": "This is an example lib",
   "main": "src/index.js",
