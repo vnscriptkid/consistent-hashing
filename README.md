@@ -36,6 +36,7 @@ npm install unique-random-array
 ## Publish it to npm
 ```console
 npm publish
+npm info @vnscriptkid/example-lib
 ```
 
 ## Release a new version in Github
