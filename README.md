@@ -38,10 +38,14 @@ npm install unique-random-array
 npm publish
 ```
 
-## Release new version
+## Release a new version
 - One tag corresponds to a release
 - Attach a tag to latest commit, then release it
 ```console
 git tag 1.0.0
 git push --tags
 ```
+- Version `1.2.0`
+  - `1` is major version, changed when there's breaking changes in lib's api
+  - `2` is minor version, changed when there's new feature but does not change old api
+  - `0` is patch version, changed when there's new bug fix
