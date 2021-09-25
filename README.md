@@ -33,12 +33,12 @@ npm install unique-random-array
 }
 ```
 
-## Publish it
+## Publish it to npm
 ```console
 npm publish
 ```
 
-## Release a new version
+## Release a new version in Github
 - One tag corresponds to a release
 - Attach a tag to latest commit, then release it
 ```console
