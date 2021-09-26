@@ -1,7 +1,7 @@
 {
-  "name": "@vnscriptkid/example-lib",
+  "name": "@vnscriptkid/consistent-hashing",
   "version": "1.3.2",
-  "description": "This is an example lib",
+  "description": "An implementation of consistent hashing in JS",
   "main": "dist/index.js",
   "private": false,
   "scripts": {
@@ -31,9 +31,7 @@
     "url": "https://github.com/vnscriptkid/example-lib/issues"
   },
   "homepage": "https://github.com/vnscriptkid/example-lib#readme",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "public"
   },
